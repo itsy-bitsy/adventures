@@ -5,6 +5,8 @@
   },
   "apps": [
     {
+      "root": "src",
+      "index": "index.html",
       "assets": [
         "assets",
         "favicon.ico"
