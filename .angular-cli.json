@@ -5,6 +5,7 @@
   },
   "apps": [
     {
+      "outDir": "dist",
       "assets": [
         "assets",
         "favicon.ico"
