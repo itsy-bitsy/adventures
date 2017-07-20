@@ -11,11 +11,11 @@
         "assets",
         "favicon.ico"
       ],
-      "main": "src/main.ts",
-      "polyfills": "src/polyfills.ts",
-      "test": "src/test.ts",
-      "tsconfig": "src/tsconfig.app.json",
-      "testTsconfig": "src/tsconfig.spec.json",
+      "main": "main.ts",
+      "polyfills": "polyfills.ts",
+      "test": "test.ts",
+      "tsconfig": "tsconfig.app.json",
+      "testTsconfig": "tsconfig.spec.json",
       "prefix": "app",
       "styles": [
         "../node_modules/font-awesome/css/font-awesome.css",
