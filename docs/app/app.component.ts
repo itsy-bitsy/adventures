@@ -16,7 +16,7 @@ export class AppComponent {
     this.items = [
       {
         label: 'Home', icon: 'fa-home',
-        routerLink: '/home',
+        routerLink: 'home',
 
       },
       {
