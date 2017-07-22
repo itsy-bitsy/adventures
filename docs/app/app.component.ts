@@ -3,7 +3,7 @@ import { Component } from '@angular/core';
 import { MenubarModule, MenuItem } from 'primeng/primeng';
 
 @Component({
-  selector: 'app-root, ngb-dropdown',
+  selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
