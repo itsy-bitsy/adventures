@@ -12,38 +12,38 @@ export class AppComponent {
   title = 'Exploring the Unexplored';
   items: MenuItem[];
 
-  ngOnInit() {
-    this.items = [
-      {
-        label: 'Home', icon: 'fa-home',
-        routerLink: 'home',
+  // ngOnInit() {
+  //   this.items = [
+  //     {
+  //       label: 'Home', icon: 'fa-home',
+  //       routerLink: 'home',
 
-      },
-      {
-        label: 'Back Country Strips', icon: '',
-        items: [
-          {
-            label: 'Idaho',
-            routerLink : '/idaho'
-          },
-          {
-            label: 'Utah',
-            routerLink: '/utah'
-          }
-        ],
-      },
-      {
-        label: 'The Flying Machine', icon: 'fa-plane',
-        routerLink: '/'
-      },
-      {
-        label: 'Camping', icon: '',
-      },
+  //     },
+  //     {
+  //       label: 'Back Country Strips', icon: '',
+  //       items: [
+  //         {
+  //           label: 'Idaho',
+  //           routerLink : '/idaho'
+  //         },
+  //         {
+  //           label: 'Utah',
+  //           routerLink: '/utah'
+  //         }
+  //       ],
+  //     },
+  //     {
+  //       label: 'The Flying Machine', icon: 'fa-plane',
+  //       routerLink: '/'
+  //     },
+  //     {
+  //       label: 'Camping', icon: '',
+  //     },
 
-      {
-        label: 'About',
-      }
+  //     {
+  //       label: 'About',
+  //     }
 
-    ];
-  }
+  //   ];
+  // }
 }
